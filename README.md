@@ -40,10 +40,7 @@ install.packages("kohonen")
 install.packages("pheatmap")
 ## Input
 Input data provided as a matrix example:
-	Archaea	Asgard	Bacteria	Eukaryotes	GVs
-DnaJ_C	56.70103093	87.91208791	96.66666667	97.63779528	54.42028986
-Acyltransferase	4.12371134	39.56043956	91.39784946	97.63779528	6.376811594
-Flavokinase	1.030927835	0	86.66666667	95.27559055	0.797101449
+	
 <img width="481" height="97" alt="image" src="https://github.com/user-attachments/assets/a3f704ca-bd3e-4c45-ae31-b98cf94d1b7f" />
 
 ## Output
