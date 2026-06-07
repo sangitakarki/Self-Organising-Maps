@@ -26,5 +26,4 @@ The optimal number of clusters was determined using the elbow method.
 ### Visualization
 
 Cluster assignments were visualized using:
-SOM cluster maps
-Hierarchically clustered heatmaps
+SOM cluster maps and Hierarchically clustered heatmaps
