@@ -13,14 +13,14 @@ The distribution of these shared protein families was used as input for unsuperv
 1. Generate Pfam Distribution Matrix
    
 A matrix was constructed containing the occurrence patterns of shared Pfam domains across taxonomic groups.
-3. Self-Organizing Map (SOM)
+2. Self-Organizing Map (SOM)
 
 A Self-Organizing Map was trained using the kohonen package in R to project high-dimensional distribution data onto a two-dimensional grid while preserving similarity relationships among Pfam domains.
-4. Cluster Identification
+3. Cluster Identification
 
 SOM codebook vectors were extracted and clustered using hierarchical clustering.
 The optimal number of clusters was determined using the elbow method.
-5. Visualization
+4. Visualization
 
 Cluster assignments were visualized using:
 SOM cluster maps
