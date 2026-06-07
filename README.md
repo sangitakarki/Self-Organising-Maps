@@ -10,20 +10,20 @@ A total of
 The distribution of these shared protein families was used as input for unsupervised clustering analysis.
 
 ## Workflow
-### Generate Pfam Distribution Matrix
+#### Pfam Distribution Matrix
    
 A matrix was constructed containing the occurrence patterns of shared Pfam domains across taxonomic groups.
 
-### Self-Organizing Map (SOM)
+#### Self-Organizing Map (SOM)
 
 A Self-Organizing Map was trained using the kohonen package in R to project high-dimensional distribution data onto a two-dimensional grid while preserving similarity relationships among Pfam domains.
 
-### Cluster Identification
+#### Cluster Identification
 
 SOM codebook vectors were extracted and clustered using hierarchical clustering.
 The optimal number of clusters was determined using the elbow method.
 
-### Visualization
+#### Visualization
 
 Cluster assignments were visualized using:
 SOM cluster maps and Hierarchically clustered heatmaps
@@ -39,18 +39,13 @@ install.packages("kohonen")
 
 install.packages("pheatmap")
 ## Input
-Input data provided as a matrix where:
+Input data provided as a matrix example:
 	Archaea	Asgard	Bacteria	Eukaryotes	GVs
 DnaJ_C	56.70103093	87.91208791	96.66666667	97.63779528	54.42028986
 Acyltransferase	4.12371134	39.56043956	91.39784946	97.63779528	6.376811594
 Flavokinase	1.030927835	0	86.66666667	95.27559055	0.797101449
 <img width="481" height="97" alt="image" src="https://github.com/user-attachments/assets/a3f704ca-bd3e-4c45-ae31-b98cf94d1b7f" />
 
-Rows represent Pfam domains
-
-Columns represent taxonomic groups or distribution features
-
-Values represent occurrence, abundance, or normalized distribution measurements
 ## Output
 The workflow generates:
 
