@@ -62,5 +62,8 @@ Viral evolution studies
 Exploratory clustering of high-dimensional biological datasets
 # Citation
 
-If you use this workflow, please cite the associated publication Karki, Sangita, and Frank O. Aylward. "Evolution of ubiquitin, cytoskeleton, and vesicular trafficking machinery in giant viruses." Journal of Virology 99, no. 3 (2025): e01715-24.
+If you use this workflow, please cite the associated publication
+
+Karki, Sangita, and Frank O. Aylward. "Evolution of ubiquitin, cytoskeleton, and vesicular trafficking machinery in giant viruses." Journal of Virology 99, no. 3 (2025): e01715-24.
+
 https://doi.org/10.1128/jvi.01715-24
