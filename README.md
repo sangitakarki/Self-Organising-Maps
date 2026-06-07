@@ -27,3 +27,40 @@ The optimal number of clusters was determined using the elbow method.
 
 Cluster assignments were visualized using:
 SOM cluster maps and Hierarchically clustered heatmaps
+
+# Software Requirements
+R (≥ 3.6)
+kohonen
+pheatmap
+
+Install dependencies:
+
+install.packages("kohonen")
+install.packages("pheatmap")
+# Input
+
+Input data should be provided as a matrix where:
+
+Rows represent Pfam domains
+Columns represent taxonomic groups or distribution features
+Values represent occurrence, abundance, or normalized distribution measurements
+# Output
+
+The workflow generates:
+
+SOM cluster visualization (SOM.pdf)
+Heatmap of clustered Pfam domains (clusters.pdf)
+Cluster assignments (clusters.txt)
+# Applications
+
+This workflow can be adapted for:
+
+Comparative genomics
+Protein family distribution analyses
+Functional genomics
+Viral evolution studies
+Exploratory clustering of high-dimensional biological datasets
+# Citation
+
+If you use this workflow, please cite the associated publication Karki, Sangita, and Frank O. Aylward. "Evolution of ubiquitin, cytoskeleton, and vesicular trafficking machinery in giant viruses." Journal of Virology 99, no. 3 (2025): e01715-24.
+https://doi.org/10.1128/jvi.01715-24
