@@ -10,7 +10,7 @@ A total of
 The distribution of these shared protein families was used as input for unsupervised clustering analysis.
 
 # Workflow
-Generate Pfam Distribution Matrix
+# Generate Pfam Distribution Matrix
    
 A matrix was constructed containing the occurrence patterns of shared Pfam domains across taxonomic groups.
 
