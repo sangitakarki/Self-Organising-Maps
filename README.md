@@ -1,4 +1,4 @@
-# Self-Organising-Maps
+# Unsupervised Machine Learning for Clustering Eukaryotic Protein Families Using Self-Organizing Maps
 ## Overview
 This repository contains an R-based unsupervised machine learning workflow for clustering eukaryotic protein families (Pfam domains) based on their distribution across cellular lineages and nucleocytoviruses using Self-Organizing Maps (SOMs).The objective of this analysis was to identify groups of protein families exhibiting similar distribution patterns without predefined class labels. By applying SOM-based clustering and hierarchical clustering, the workflow uncovers hidden structure within high-dimensional protein distribution data and reveals distinct groups of shared protein families.
 
