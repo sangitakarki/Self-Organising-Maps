@@ -47,10 +47,11 @@ Input data provided as a matrix example:
 The workflow generates:
 
 SOM cluster visualization (SOM.pdf)
+<img width="705" height="779" alt="image" src="https://github.com/user-attachments/assets/b19fee29-06f2-4373-b8b3-f01a22cdb80d" />
 
 Heatmap of clustered Pfam domains (clusters.pdf)
 
-Cluster assignments (clusters.txt)
+Assigned cluster table (clusters.txt)
 ## Applications
 This workflow can be adapted for:
 
